@@ -23,7 +23,7 @@ const Header = () => {
           alt='Properties logo'/> */}
           <nav className="">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex items-center justify-between h-16">
+              <div className="flex items-center justify-center w-full h-16">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <img
@@ -33,7 +33,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="hidden md:block">
-                    <div className="ml-5 flex items-baseline space-x-4">
+                    <div className="ml-5 flex items-baseline space-x-2">
                       <a
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
